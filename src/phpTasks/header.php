@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="<?php echo $md; ?>">
+<meta name="description" content="<?php 
+    if(isset($md) && !empty($md)) {
+        echo $md; 
+    } else {
+        echo "Default description for my HAMK PHP project.";
+    }
+?>">
     <title>
         <?php 
             if(isset($title) && !empty($title)) {
