@@ -36,6 +36,7 @@
             <a href="index.php">Home</a>
             <a href="ex1.php">Exercise 1</a>
             <a href="ex3.php">Exercise 3</a>
+            <a href="ex4.php">Exercise 4</a>
         </nav>
     </header>
     <main class="container mt-5">
