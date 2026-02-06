@@ -1,10 +1,10 @@
 <?php 
-    $title = "Home Page - Eljona"; 
+    $title = "Home - Eljona's Portfolio"; 
+    $md = "Welcome to my development hub for PHP tasks."; 
     include 'header.php'; 
 ?>
 
-    <h2>Welcome to my PHP Site</h2>
-    <p>This is the main home page. Use the menu above to navigate to my different exercises.</p>
-    <p>I am learning how to use PHP includes to keep my website organized!</p>
+    <h2>Home Page</h2>
+    <p>This is my main landing page using a universal layout.</p>
 
 <?php include 'footer.php'; ?>

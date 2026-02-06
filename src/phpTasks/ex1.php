@@ -1,10 +1,11 @@
 <?php 
-    $title = "Exercise 1 - Eljona"; 
+    $title = "Exercise 1 - PHP Basics"; 
+    $md = "This page displays student grades and PHP variable examples."; 
     include 'header.php'; 
 ?>
 
-    <h2>About This Website</h2>
-    <p>Hello world! My name is "David"</p>
+    <h2>Exercise 1</h2>
+    <p>Hello world! My name is David.</p>
     
     <h3>3.3 Student Grades</h3>
     <table border="1" style="margin-left:auto; margin-right:auto;">
