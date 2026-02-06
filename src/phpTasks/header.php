@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Your Website Title</title>
-    <style>
+    <title><?php echo $title; ?></title> <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -20,7 +19,9 @@
             color: white;
             padding: 10px;
             text-align: center;
-            position: absolute;
+            /* Note: your professor's footer has absolute positioning, 
+               it might overlap content if the page is long! */
+            position: relative; 
             bottom: 0;
             width: 100%;
         }
@@ -34,17 +35,9 @@
     <header>
         <h1>Welcome to My Website</h1>
         <p>Your go-to source for web development tutorials</p>
+        <nav>
+            <a href="index.php" style="color:white; margin:10px;">Home</a>
+            <a href="ex1.php" style="color:white; margin:10px;">Exercise 1</a>
+        </nav>
     </header>
     <main>
-        <h2>About This Website</h2>
-        <p>This is a simple webpage that you can edit to include your content. It includes a header and footer, with a body area where you can add information for your users.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, recusandae aliquid mollitia, nulla sequi iusto reprehenderit rem, autem minima et expedita debitis? Porro, mollitia. Laborum atque eaque hic voluptate explicabo.</p>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Your Website. All rights reserved.</p>
-
-        <!-- Your footer content goes here -->
-    </footer>
-</body>
-</html>

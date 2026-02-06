@@ -1,30 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise 1: Getting Started with PHP - Eljona</title>
-</head>
-<body>
+<?php 
+    $title = "Exercise 1 - Eljona"; 
+    include 'header.php'; 
+?>
 
-    <h3>3.1 Hello World</h3>
-    <?php 
-        echo "Hello world! My name is \"David\""; 
-    ?>
-
-    <h3>3.2 Variables</h3>
-    <?php 
-        $title = "PHP is interesting.";
-        echo "<h4>$title</h4>";
-    ?>
-
+    <h2>About This Website</h2>
+    <p>Hello world! My name is "David"</p>
+    
     <h3>3.3 Student Grades</h3>
-    <?php
-        $g1 = 5; 
-        $g2 = 4; 
-        $g3 = 5;
-    ?>
-    <table border="1">
+    <table border="1" style="margin-left:auto; margin-right:auto;">
         <tr>
             <th>S.n.</th>
             <th>Name</th>
@@ -33,22 +16,21 @@
         <tr>
             <td>1</td>
             <td>John</td>
-            <td><?php echo $g1; ?></td>
+            <td>5</td>
         </tr>
         <tr>
             <td>2</td>
             <td>Alice</td>
-            <td><?php echo $g2; ?></td>
+            <td>4</td>
         </tr>
         <tr>
             <td>3</td>
             <td>Bob</td>
-            <td><?php echo $g3; ?></td>
+            <td>5</td>
         </tr>
     </table>
 
     <h3>3.4 Screenshot</h3>
-    <img src="screenshot.png" alt="Development Environment Screenshot" style="max-width: 800px; height: auto;">
+    <img src="screenshot.png" alt="Docker Screenshot" style="max-width: 80%;">
 
-</body>
-</html>
+<?php include 'footer.php'; ?>

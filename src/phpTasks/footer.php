@@ -1,5 +1,6 @@
+</main>
     <footer>
-        <!-- Your footer content goes here -->
+        <p>&copy; 2026 Eljona. All rights reserved.</p>
     </footer>
 </body>
 </html>
