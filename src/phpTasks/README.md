@@ -13,11 +13,15 @@ This project is a collection of PHP exercises and a group work assignment for th
 - [x] **Feature 1:** Basic PHP and Layout (Exercise 1)
 - [x] **Feature 2:** Variable and String Handling (Exercise 3)
 - [x] **Feature 3:** Control Flow and Loops (Exercise 4)
-- [ ] **Feature 4:** CRUD Application - Student Management (Exercise 7) - *In Progress*
+- [x] **Feature 4:** CRUD Application - Student Management (Exercise 7) - **Completed**
 
 ## Database Tables
+
 - **Table 1:** `studentsinfo` (Created by: Eljona)
-  - This table stores the student's first name, last name, city, and group ID.
+  - **Description**: This table stores the student's first name, last name, city, and group ID for Exercise 7.
+  - **Server**: Successfully created and verified on the HAMK Shell server.
+  - **Fields**: `id` (Primary Key), `first_name`, `last_name`, `groupId`, `city`.
+  - **Status**: Live and connected to `exercise7.php`.
 
 ## Created Forms
 - **Form 1:** User Welcome Form (ex3.php)
